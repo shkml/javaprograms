@@ -10,8 +10,9 @@ public class PointsInsideOutside {
 		
 		Scanner input = new Scanner(System.in);
 		
-		int x = input.nextInt();
-		int y = input.nextInt();
+		//entered points could be in points
+		double x = input.nextDouble();
+		double y = input.nextDouble();
 		
 		if ((Math.abs(x)<5) && (Math.abs(y)<2.5))
 			System.out.println("Points are inside the rectangle");

@@ -36,7 +36,7 @@ public class ChineseZodiac {
 		case 10: System.out.println("Horse");
 				break;
 		case 11: System.out.println("Sheep");
-				break;
+				//break; Redundant as already reached to the end of the switch statement.
 		}
 		
 		//close the scanner

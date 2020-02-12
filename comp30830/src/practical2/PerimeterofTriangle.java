@@ -9,13 +9,13 @@ public class PerimeterofTriangle {
 		System.out.println("Enter the sides of Triangle");
 		
 		//Read 3 inputs
-		int s1 = input.nextInt();
-		int s2=input.nextInt();
-		int s3= input.nextInt();
+		double s1 = input.nextDouble();
+		double s2 = input.nextDouble();
+		double s3 = input.nextDouble();
 		
-		if((s1+s2>s3) ||(s2+s3>s1)||((s1+s3)>s2))
+		if(s1+s2>s3 || s2+s3>s1|| s1+s3>s2)
 		{
-			int perimeter = s1+s2+s3;
+			double perimeter = s1+s2+s3;
 			System.out.println("Perimeter of Triangle is:");
 			System.out.print(perimeter);
 		}

@@ -1,4 +1,4 @@
-package comp30830;
+package practical1;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;

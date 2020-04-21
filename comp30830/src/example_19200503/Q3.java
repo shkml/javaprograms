@@ -60,11 +60,14 @@ public class Q3 {
 				chars[arr[i]-'a']=true;
 		}
 		
+		/*
+		 * for(int k=0;k<chars.length;k++) { System.out.println(chars[k]); }
+		 */
 		int count =0;
 		for (boolean b:chars)
 			if(b)
 				count++;
-		
+		//System.out.println(count);
 		char[] distinctLetters = new char[count];
 		
 		int countNew = 0;

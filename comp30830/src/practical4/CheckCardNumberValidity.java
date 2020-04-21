@@ -21,10 +21,14 @@ public class CheckCardNumberValidity {
 			 return true;
 		 return false;
 	}
-	
-	// Return true if the card number has a valid prefix
-	public static boolean hasValidPrefix(String number) {
 		
-		return false;
+	// Return true if the card number has a valid prefix
+	public static boolean hasValidPrefix(String number) {	
+		return number.startsWith("4") || number.startsWith("5") || number.startsWith("6") || number.startsWith("37");
 	}
+//	
+//	public static boolean satisfiesMod10Check(String number) {
+//		
+//	}
+	
 }

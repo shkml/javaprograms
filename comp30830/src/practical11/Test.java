@@ -32,7 +32,8 @@ public class Test {
 	public static void scaleGeometricObjects(GeometricObject[] arr, double factor) {
 		for (GeometricObject o: arr)
 			if (o instanceof Scalable)
-				((Scalable) o).scale(factor);
+				//((Scalable) o).scale(factor); could also be written like below
+				o.scale(factor);
 	}
 
 	// Rotates the first Rotable geometric object found in the array
